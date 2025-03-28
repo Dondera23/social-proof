@@ -222,7 +222,7 @@
           flex-direction: column;
           /* justify-content: space-between; */
           gap: 20px;
-          padding: 2rem;
+          padding: 1.5rem;
           text-align: center;
 
          h1{
@@ -275,7 +275,7 @@
         }
 
         .card2{
-          padding: 2rem;
+          padding: 1.5rem;
           display: flex;
           flex-direction: column;
           gap: 20px;
