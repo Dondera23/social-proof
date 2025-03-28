@@ -1,0 +1,339 @@
+@media only screen and (min-width:850px){
+    main{
+        width: 100vw;
+        /* border: 3px soild red;  */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        padding: 2rem;
+        gap: 30px;
+        justify-content: center;
+
+        .card1{
+            display: flex;
+            padding: 2rem;
+            flex-direction: row;
+            justify-content: space-between;
+
+
+            .item2{
+                display: flex;
+                flex-direction: column;
+                gap:10px;
+                padding: 1rem;
+                justify-content: center;
+
+                .smallcard1{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    color: hsl(300, 43%, 22%);
+                    background-color: hsl(300, 24%, 96%);
+                    padding: 0.3rem;
+                    border-radius: 5px;
+                    /* height: 50px; */
+                    width: 80%; 
+                }
+
+                .smallcard2{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    color: hsl(300, 43%, 22%);
+                    background-color: hsl(300, 24%, 96%);
+                    padding: 0.3rem;
+                    border-radius: 5px;
+                    width: 80%;
+                    margin-left: 1.5rem;
+                }
+
+                .smallcard3{
+                     display: flex;
+                     flex-direction: row;
+                     justify-content: space-around;
+                     color: hsl(300, 43%, 22%);
+                     background-color: hsl(300, 24%, 96%);
+                     padding: 0.3rem;
+                     border-radius: 5px;
+                     width: 80%;
+                     margin-left: 3rem;
+                }
+            }
+
+            .item1, .item2{
+                width: 30%;
+                /* border: 2px solid rosybrown; */
+
+               
+                h1{
+                  font-family: "League Spartan", sans-serif;
+                  font-optical-sizing: auto;
+                  font-weight: 700;
+                  font-style: normal;  
+                  width: 60%;
+                  color: hsl(300, 43%, 22%);
+                }
+
+                
+                .p1{
+                  width: 82.8%;  
+                  font-family: "League Spartan", sans-serif;
+                  font-optical-sizing: auto;
+                  font-weight: 400;
+                  font-style: normal;
+                  color: hsl(303, 10%, 53%);
+                }
+
+                .paragraph, img{
+                    display: inline;
+                    font-family: "League Spartan", sans-serif;
+                    font-optical-sizing: auto;
+                    font-weight: 400;
+                    font-style: normal;
+                }
+            }
+        }
+
+        .card2{
+            padding: 0 2rem 3rem 2rem; 
+            display: flex; 
+            flex-direction: row;
+            gap: 20px; 
+            /* justify-content: center; */
+
+
+           .item4{
+            margin-top: 1.2rem;
+           }
+
+           .item5{
+            margin-top: 2.4rem;
+           }
+
+           .item3, .item4, .item5{
+              display: flex;
+              border-radius: 10px;
+              flex-direction: column;
+              padding: 1.5rem;
+              height: 80%; 
+              background-color: hsl(300, 43%, 22%);
+              /* justify-content: space-around; */
+
+              .square{
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                margin-top: 1rem;
+
+                h3{
+                  margin: 0;
+                  font-family: "League Spartan", sans-serif;
+                  font-optical-sizing: auto;
+                  font-weight: 500;
+                  font-style: normal;
+                  color: hsl(300, 24%, 96%);
+                }
+
+                h4{
+                  margin: 0;
+                  font-family: "League Spartan", sans-serif;
+                  font-optical-sizing: auto;
+                  font-weight: 500;
+                  font-style: normal;
+                  color: hsl(333, 80%, 67%);
+                }
+
+              }
+
+              .one{
+                /* width: 265px; */
+                width: 80%; 
+                margin-top: 2rem;
+                color: hsl(300, 24%, 96%);
+              }
+
+              .two{
+                /* width: 265px; */
+                width: 85%; 
+                margin-top: 2rem;
+                color: hsl(300, 24%, 96%);
+              }
+
+              .three{
+                /* width: 265px; */
+                width: 85%; 
+                margin-top: 2rem;
+                color: hsl(300, 24%, 96%);
+              }
+           }
+
+            .buyers{
+                width: 40px;
+                border-radius: 20px;
+
+            }
+            
+        }
+
+         p, .paragraph{ 
+            font-family: "League Spartan", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .img{
+          width: 12px; 
+        }
+    }
+}
+
+@media only screen and (max-width:849px){
+  main{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* height: 100vh; */
+    font-size: 15px;
+    margin-bottom: 10px;
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        padding: 2rem;
+        gap: 30px;
+        justify-content: center;
+
+        .card1{
+          display: flex;
+          flex-direction: column;
+          /* justify-content: space-between; */
+          gap: 20px;
+          padding: 2rem;
+          text-align: center;
+
+         h1{
+          font-family: "League Spartan", sans-serif;
+          font-optical-sizing: auto;
+          font-weight: 700;
+          font-style: normal;
+          width: 70%;  
+          margin: 0 auto;
+          color: hsl(300, 43%, 22%);
+         }
+
+        .p1{
+          font-family: "League Spartan", sans-serif;
+          font-optical-sizing: auto;
+          font-weight: 400;
+          /* margin: 0 auto; */
+          font-style: normal;
+          color: hsl(303, 10%, 53%);
+        }
+
+          .item2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+            /* border: 2px solid white; */
+
+
+            .smallcard1, .smallcard2, .smallcard3{
+              background-color: hsl(300, 24%, 96%);
+              border-radius: 5px;
+              color: hsl(300, 43%, 22%);
+            }
+
+
+            .paragraph{
+              margin:0 0 10px 0;
+              font-family: "League Spartan", sans-serif;
+              font-optical-sizing: auto;
+              font-weight: 400;
+              font-style: normal;
+              color: hsl(303, 10%, 53%);
+            }
+
+            .img{
+              margin: 5px 0 5px 0;
+            }
+          }
+        }
+
+        .card2{
+          padding: 2rem;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+
+          .item3, .item4, .item5{
+            display: flex;
+            padding: 1.5rem;
+            border-radius: 10px;
+            flex-direction: column;
+            background-color: hsl(300, 43%, 22%);
+
+            .square{
+              display: flex;
+              flex-direction: row;
+              gap: 20px;
+              margin-top: 1rem;
+
+              .buyers{
+                width: 40px;
+                border-radius: 20px;
+              }
+
+              h3{
+                margin: 0;
+                font-family: "League Spartan", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 500;
+                font-style: normal;
+                color: hsl(300, 24%, 96%);
+              }
+
+              h4{
+                margin: 0;
+                font-family: "League Spartan", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 500;
+                font-style: normal;
+                color: hsl(333, 80%, 67%)
+              }
+
+            }
+
+            .one{
+              margin-top: 2rem;
+              color: hsl(300, 24%, 96%);
+            }
+
+            .two{
+              margin-top: 2rem;
+              color: hsl(300, 24%, 96%);
+            }
+
+            .three{
+              margin-top: 2rem;
+              color: hsl(300, 24%, 96%);
+            }
+          }
+        }
+    }
+  }
+}
