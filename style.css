@@ -213,7 +213,7 @@
         flex-direction: column;
         width: 80%;
         margin: 0 auto;
-/*         padding: 2rem; */
+        padding: 1rem 0 0 0;
         gap: 30px;
         justify-content: center;
 
